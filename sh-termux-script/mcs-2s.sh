@@ -22,6 +22,7 @@ apt update && apt upgrade -y
 pkg install nano && pkg install php -y
 apt install git -y
 cd ..
+cd ..
 git clone https://github.com/EnderZET/EnderZETScript.git
 sleep 1
 cd EnderZETScript
@@ -54,6 +55,7 @@ rm -rf EnderZETScript
 fi
 if [ $jwb = 3 ]
 then
+cd ..
 cd ..
 cd EnderZETScript
 cd 1.2
