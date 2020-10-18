@@ -20,7 +20,11 @@ echo "Installing Script.."
 sleep 1
 apt update && apt upgrade -y
 pkg install nano && pkg install php -y
+pkg install neofetch -y
 apt install git -y
+pkg install ruby -y
+gem install lolcat
+pkg install cowsay -y && pkg install toilet -y
 cd ..
 cd ..
 git clone https://github.com/EnderZET/EnderZETScript.git
